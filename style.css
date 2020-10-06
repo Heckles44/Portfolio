@@ -267,6 +267,9 @@ About Page
 
 /* about me */
 
+.about {
+  min-height: calc(100vh - 7.5vh - 15vh);
+}
 .about-title {
   text-align: left;
   margin-bottom: 2rem;
