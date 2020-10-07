@@ -178,7 +178,7 @@ Navbar
 }
 
 .navbar ul a:hover {
-  border-bottom: var(--clr-primary) solid 2px;
+  border-bottom: #fff solid 2px;
 }
 
 /*
