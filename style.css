@@ -187,6 +187,10 @@ Banner
   height: 100vh;
   position: relative;
   color: #fff;
+  /* background: url(./img/background_option_1_files/shi-min-teh-sWy5GzFdGY4-unsplash.jpg); */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/background_option_1_files/sunset-1373186.jpg") no-repeat center
+      center/cover; */
 }
 
 .hero .content {
