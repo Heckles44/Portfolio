@@ -194,14 +194,9 @@ Banner
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  text-align: center;
   height: 100%;
   padding: 0 20px;
   margin-left: 5%;
-}
-
-.hero .content h1 {
-  font-size: 55px;
 }
 
 .hero .content h1 {
@@ -239,6 +234,23 @@ Banner
   border-right: 0.2rem solid #fff;
 }
 
+@media screen and (max-width: 992px) {
+  /* .hero .content h1,
+  .hero .content h2 {
+    text-align: center;
+  } */
+}
+@media screen and (max-width: 600px) {
+  /* .hero .content h1,
+  .hero .content h2 {
+    text-align: center;
+  } */
+
+  .hero .content h1 {
+    font-size: 2rem;
+  }
+}
+
 /*
 ==============
 About Page
@@ -263,9 +275,9 @@ About Page
 
 /* about me */
 
-.about {
+/* .about {
   min-height: calc(100vh - 7.5vh - 15vh);
-}
+} */
 .about-title {
   text-align: left;
   margin-bottom: 2rem;
@@ -386,7 +398,6 @@ Contact Page
 */
 
 #contact {
-  min-height: calc(100vh - 7.5vh - 15vh);
   background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
     url("/img/Contact/pexels-sesinando-4786311.jpg");
   background-size: cover;
@@ -402,6 +413,7 @@ Contact Page
   width: 60%;
   color: #fff;
   border-radius: var(--radius);
+  margin: 2rem 0;
 }
 
 .form-header {
@@ -415,9 +427,6 @@ Contact Page
   padding: 1.75rem;
   font-size: 1.5rem;
   text-align: center;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .message-form {
@@ -449,6 +458,10 @@ Contact Page
 }
 
 @media screen and (max-width: 850px) {
+  .form-wrapper {
+    width: 100%;
+    margin: 0;
+  }
   .name-form,
   .email-form,
   .message-form {
@@ -459,6 +472,11 @@ Contact Page
   }
   .form-wrapper label {
     margin-bottom: 1rem;
+  }
+
+  .form-wrapper input,
+  .form-wrapper textarea {
+    width: 95%;
   }
 }
 
