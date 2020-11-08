@@ -406,6 +406,7 @@ Contact Page
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: calc(100vh - 7.5vh - 15vh);
 }
 
 .form-wrapper {
